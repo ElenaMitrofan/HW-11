@@ -1,6 +1,6 @@
 public class Main {
-    public static void printSeparator () {
-        System.out.println("Задание");
+    public static void printSeparator (int number) {
+        System.out.println("Задание " + number);
 
     }
     public static void determineLapYear (int year) {
@@ -37,17 +37,12 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        printSeparator ();
+        printSeparator (1);
         determineLapYear(2000);
-        printSeparator();
+        printSeparator(2);
         getClientOS (0, 2014);
-        printSeparator();
+        printSeparator(3);
         calculateDistance (95);
-
-
-
-
-
 
 
     }
